@@ -1,0 +1,18 @@
+.tabItem-container {
+  list-style-type: none;
+}
+.tabs-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  height: 50px;
+  font-size: 30px;
+  font-family: roboto;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.active-button {
+  border-bottom: #fec653 solid 2px;
+  color: #fec653;
+}
