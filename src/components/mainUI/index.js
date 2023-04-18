@@ -322,7 +322,7 @@ class MainUi extends Component {
         {gameOver || timer < 1 ? (
           <ScoreCard score={score} gameIsOn={this.gameIsOn} />
         ) : (
-          <>
+          <div>
             <div className="image-container">
               <img
                 src={matchImagesrc.imageUrl}
@@ -349,7 +349,7 @@ class MainUi extends Component {
                 />
               ))}
             </ul>
-          </>
+          </div>
         )}
       </div>
     )
